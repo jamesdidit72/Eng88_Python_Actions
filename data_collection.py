@@ -1,14 +1,3 @@
-# Python Data Collections
-- lists
-- dictionaries
-- tuples
-- sets
-
-## What are data collections?
-
-The difference between lists and tuples is that tuples cannot be edited once created 
-
-```python
 # Lists the syntax is []
 
 shopping_list = ['juice', 'strawberries', 'yogurt', 'chicken', 'raspberries', 'butter']  # a list contains 6 indexes
@@ -26,4 +15,3 @@ shopping_list.remove('oats')  # removes oats from the list
 print(shopping_list)  # prints the list to the terminal
 shopping_list.pop()  # pop() removes the last item from the list
 print(shopping_list)  # prints the list to the terminal
-```
