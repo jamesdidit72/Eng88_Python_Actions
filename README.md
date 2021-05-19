@@ -27,3 +27,12 @@ print(shopping_list)  # prints the list to the terminal
 shopping_list.pop()  # pop() removes the last item from the list
 print(shopping_list)  # prints the list to the terminal
 ```
+###tuples are immutable
+```python
+# Tuples are immutable
+# syntax = ()
+essentials = ('eggs', 'milk', 'bread')  # tuple
+print(essentials)  # prints the list to the terminal
+print(type(essentials))  # prints the data type of the list
+# essentials[2] = 'yogurt', doesnt work because it is immutable
+```
