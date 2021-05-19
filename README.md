@@ -3,6 +3,7 @@
 - dictionaries
 - tuples
 - sets
+<<<<<<< HEAD
 
 ## What are data collections?
 
@@ -27,3 +28,5 @@ print(shopping_list)  # prints the list to the terminal
 shopping_list.pop()  # pop() removes the last item from the list
 print(shopping_list)  # prints the list to the terminal
 ```
+=======
+>>>>>>> e6d7b7d5cfe1cd2c560f3adbcd547d69c43b5791
