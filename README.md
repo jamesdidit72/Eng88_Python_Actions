@@ -52,3 +52,19 @@ print(student_1.keys())  # only prints the keys within the dictionary
 print(student_1.values())  # only prints the values within the dictionary
 
 ```
+###sets
+```python
+# sets are a data collection but they are UNORDERED
+# syntax name = {}
+
+car_parts = {'wheels', 'doors', 'engine'}
+print(car_parts)
+car_parts.add('windows')
+print(car_parts)
+car_parts.remove('doors')
+print(car_parts)
+
+#frozen sets
+frozen_set = ([1,3,5,6])
+print(frozen_set)
+```
